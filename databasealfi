@@ -1,0 +1,98 @@
+{
+  "databases": [
+    "PerpusIsan",
+    "admin",
+    "alfilibrary",
+    "config",
+    "local",
+    "rumahsakit",
+    "Universitas"
+  ],
+  "collections": {
+    "Universitas": {
+      "mahasiswa": [
+        {
+          "nama": "alfi",
+          "nim": 11230251000006,
+          "jurusan": "ilmu perpustakaan"
+        },
+        {
+          "nama": "aulia",
+          "nim": 11230251000007,
+          "jurusan": "ilmu perpustakaan"
+        },
+        {
+          "nama": "putri",
+          "nim": 11230251000008,
+          "jurusan": "ilmu perpustakaan"
+        }
+      ],
+      "dosen": [
+        {
+          "nama": "agus",
+          "nidn": 333,
+          "fakultas": "adab humaniora"
+        },
+        {
+          "nama": "septian",
+          "nidn": 444,
+          "fakultas": "adab humaniora"
+        },
+        {
+          "nama": "nurul",
+          "nidn": 555,
+          "fakultas": "adab humaniora"
+        }
+      ],
+      "matakuliah": [
+        {
+          "nama": "pengantar arsip",
+          "kode": 112,
+          "sks": "3"
+        },
+        {
+          "nama": "data base",
+          "kode": 435,
+          "sks": "4"
+        },
+        {
+          "nama": "sarna prasarana",
+          "kode": 245,
+          "sks": "2"
+        }
+      ],
+      "fasilitaskampus": [
+        {
+          "nama": "perpustakaan pusat",
+          "id_fasilitas": 1,
+          "lokasi": "gedung A lantai 1"
+        },
+        {
+          "nama": "ruang lab",
+          "id_fasilitas": 334,
+          "lokasi": "gedung b lantai 4"
+        },
+        {
+          "nama": "teater",
+          "id_fasilitas": 556,
+          "lokasi": "gedung c lantai 5"
+        }
+      ],
+      "organisasikampus": [
+        {
+          "nama": "pmii",
+          "bidang": "akademik",
+          "ketua": "rizal"
+        },
+        {
+          "nama": "hmi",
+          "bidang": "akademik",
+          "ketua": "fahmi"
+        },
+        {
+          "nama": "himpunan mahasiswa ilpus"
+        }
+      ]
+    }
+  }
+}
